@@ -77,7 +77,7 @@ public class Tabeller {
 			tabellTxt += Integer.toString (tabell [i]);
 			
 			if (i != tabell.length - 1) {
-				tabellTxt += ", ";
+				tabellTxt += ",";
 			} 
 		}
 		
@@ -131,7 +131,7 @@ public class Tabeller {
 		
 		while (i < tabell.length && !finnes) {
 			
-			if (tabell[i] > tall) {
+			if (tabell[i] == tall) {
 				finnes = true;
 			}
 			
